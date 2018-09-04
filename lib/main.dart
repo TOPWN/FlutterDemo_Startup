@@ -4,6 +4,7 @@ import 'basic.dart';
 import 'material.dart';
 import 'button.dart';
 import 'counter.dart';
+import 'shoppinglist.dart';
 
 void main() => runApp(MyApp());
 
@@ -19,7 +20,10 @@ class MyApp extends StatelessWidget {
 //      home: MyScaffold(),
 //      home: TutorialHome(),
 //      home: MyButton(),
-      home: Counter(),
+//      home: Counter(),
+      home: ShoppingList(
+        products: initProducts(),
+      ),
     );
   }
 }
