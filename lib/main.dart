@@ -17,13 +17,13 @@ class MyApp extends StatelessWidget {
         primaryColor: Colors.blue,
       ),
 //      home: RandomWords(),
-//      home: MyScaffold(),
+      home: MyScaffold(),
 //      home: TutorialHome(),
-//      home: MyButton(),
+//      home: MyButtonWidget(),
 //      home: Counter(),
-      home: ShoppingList(
-        products: initProducts(),
-      ),
+//      home: ShoppingList(
+//        products: initProducts(),
+//      ),
     );
   }
 }
