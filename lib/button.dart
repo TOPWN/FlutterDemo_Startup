@@ -28,18 +28,19 @@ class MyButton extends StatelessWidget {
         constraints: new BoxConstraints.expand(
           height: Theme.of(context).textTheme.display1.fontSize * 1.1 + 200.0,
         ),
-        padding: const EdgeInsets.all(8.0),
-        color: Colors.teal.shade700,
+//        padding: const EdgeInsets.all(8.0),
+//        color: Colors.teal.shade700,
         alignment: Alignment.center,
         child: new Text('Hello World',
             style: Theme
                 .of(context)
                 .textTheme
                 .display1
-                .copyWith(color: Colors.white)),
-        foregroundDecoration: new BoxDecoration(
+                .copyWith(color: Colors.green)),
+        decoration: new BoxDecoration(
           image: new DecorationImage(
-            image: new NetworkImage('https://www.example.com/images/frame.png'),
+            image: new NetworkImage(
+                'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537335120869&di=48169b9ceb7ca6a028c8d3f086e75c4f&imgtype=0&src=http%3A%2F%2Fpic.baike.soso.com%2Fp%2F20130523%2F20130523215258-449193373.jpg'),
             centerSlice: new Rect.fromLTRB(270.0, 180.0, 1360.0, 730.0),
           ),
         ),

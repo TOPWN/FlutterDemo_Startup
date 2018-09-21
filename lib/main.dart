@@ -5,6 +5,7 @@ import 'material.dart';
 import 'button.dart';
 import 'counter.dart';
 import 'shoppinglist.dart';
+import 'BasicAppBarSample.dart';
 
 void main() => runApp(MyApp());
 
@@ -17,13 +18,14 @@ class MyApp extends StatelessWidget {
         primaryColor: Colors.blue,
       ),
 //      home: RandomWords(),
-      home: MyScaffold(),
+//      home: MyScaffold(),
 //      home: TutorialHome(),
 //      home: MyButtonWidget(),
 //      home: Counter(),
 //      home: ShoppingList(
 //        products: initProducts(),
 //      ),
+      home: BasicAppBarSample(),
     );
   }
 }
