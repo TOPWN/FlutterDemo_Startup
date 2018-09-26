@@ -7,6 +7,7 @@ import 'counter.dart';
 import 'shoppinglist.dart';
 import 'BasicAppBarSample.dart';
 import 'TabBarSample.dart';
+import 'AppBarBottomSample.dart';
 
 void main() => runApp(MyApp());
 
@@ -27,7 +28,8 @@ class MyApp extends StatelessWidget {
 //        products: initProducts(),
 //      ),
 //      home: BasicAppBarSample(),
-      home: TabBarDemo(),
+//      home: TabBarDemo(),
+      home: AppBarBottomSample(),
     );
   }
 }
