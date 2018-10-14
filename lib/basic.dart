@@ -51,9 +51,55 @@ class MyScaffold extends StatelessWidget {
               style: Theme.of(context).primaryTextTheme.title,
             ),
           ),
-          Expanded(
-            child: Center(
-              child: Text('Hello, world!'),
+//          Expanded(
+//            child: Center(
+//              child: Text('Hello, world!'),
+//            ),
+//          ),
+          Container(
+            margin: EdgeInsets.symmetric(vertical: 50.0),
+            child: Row(
+              children: <Widget>[
+                new Expanded(
+                  child: new Text('Deliver features faster',
+                      textAlign: TextAlign.center),
+                ),
+                new Expanded(
+                  child: new Text('Craft beautiful UIs',
+                      textAlign: TextAlign.center),
+                ),
+                new Expanded(
+                  child: new FittedBox(
+                    fit: BoxFit.contain, // otherwise the logo will be tiny
+                    child: const FlutterLogo(),
+                  ),
+                ),
+              ],
+            ),
+          ),
+
+          Container(
+            margin: EdgeInsets.symmetric(vertical: 50.0),
+            child: Row(
+              children: <Widget>[
+                const FlutterLogo(),
+                const Text(
+                    'Flutter\'s hot reload helps you quickly and easily experiment, build UIs, add features, and fix bug faster. Experience sub-second reload times, without losing state, on emulators, simulators, and hardware for iOS and Android.'),
+                const Icon(Icons.sentiment_very_satisfied),
+              ],
+            ),
+          ),
+          Container(
+            margin: EdgeInsets.symmetric(vertical: 50.0),
+            child: Row(
+              children: <Widget>[
+                const FlutterLogo(),
+                Expanded(
+                  child: const Text(
+                      'Flutter\'s hot reload helps you quickly and easily experiment, build UIs, add features, and fix bug faster. Experience sub-second reload times, without losing state, on emulators, simulators, and hardware for iOS and Android.'),
+                ),
+                const Icon(Icons.sentiment_very_satisfied),
+              ],
             ),
           ),
         ],

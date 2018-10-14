@@ -5,6 +5,11 @@ import 'material.dart';
 import 'button.dart';
 import 'counter.dart';
 import 'shoppinglist.dart';
+import 'BasicAppBarSample.dart';
+import 'TabBarSample.dart';
+import 'AppBarBottomSample.dart';
+import 'ListViewSample.dart';
+import 'TextFieldSample.dart';
 
 void main() => runApp(
       MyApp(),
@@ -21,11 +26,16 @@ class MyApp extends StatelessWidget {
 //      home: RandomWords(),
 //      home: MyScaffold(),
 //      home: TutorialHome(),
-//      home: MyButton(),
+//      home: MyButtonWidget(),
 //      home: Counter(),
-      home: ShoppingList(
-        products: initProducts(),
-      ),
+//      home: ShoppingList(
+//        products: initProducts(),
+//      ),
+//      home: BasicAppBarSample(),
+//      home: TabBarDemo(),
+//      home: AppBarBottomSample(),
+//      home: ListViewDemo(),
+      home: TextFieldSample(),
     );
   }
 }
