@@ -39,9 +39,9 @@ class MyApp extends StatelessWidget {
 //      home: AppBarBottomSample(),
 //      home: ListViewDemo(),
 //      home: TextFieldSample(),
-      home: TestFuture(),
+//      home: TestFuture(),
 //      home: CupertinoSwitchDemo(),
-//      home: CupertinoPickerDemo(),
+      home: CupertinoPickerDemo(),
     );
   }
 }
