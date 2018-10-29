@@ -1,17 +1,22 @@
 import 'package:flutter/material.dart';
-import 'startup.dart';
-import 'basic.dart';
-import 'material.dart';
-import 'button.dart';
-import 'counter.dart';
-import 'shoppinglist.dart';
-import 'BasicAppBarSample.dart';
-import 'TabBarSample.dart';
-import 'AppBarBottomSample.dart';
-import 'ListViewSample.dart';
-import 'TextFieldSample.dart';
+import 'package:startup_namer/material/startup.dart';
+import 'package:startup_namer/material/basic.dart';
+import 'package:startup_namer/material/material.dart';
+import 'package:startup_namer/material/button.dart';
+import 'package:startup_namer/material/counter.dart';
+import 'package:startup_namer/material/shoppinglist.dart';
+import 'package:startup_namer/material/BasicAppBarSample.dart';
+import 'package:startup_namer/material/TabBarSample.dart';
+import 'package:startup_namer/material/AppBarBottomSample.dart';
+import 'package:startup_namer/material/ListViewSample.dart';
+import 'package:startup_namer/material/TextFieldSample.dart';
+import 'package:startup_namer/material/TestFuture.dart';
+import 'package:startup_namer/cupertino/CupertinoSwitchTest.dart';
+import 'cupertino/CupertinoPickerDemo.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(
+      MyApp(),
+    );
 
 class MyApp extends StatelessWidget {
   @override
@@ -33,7 +38,10 @@ class MyApp extends StatelessWidget {
 //      home: TabBarDemo(),
 //      home: AppBarBottomSample(),
 //      home: ListViewDemo(),
-      home: TextFieldSample(),
+//      home: TextFieldSample(),
+//      home: TestFuture(),
+//      home: CupertinoSwitchDemo(),
+      home: CupertinoPickerDemo(),
     );
   }
 }
