@@ -16,6 +16,7 @@ import 'cupertino/CupertinoPickerDemo.dart';
 import 'material/WrapDemo.dart';
 import 'cupertino/CupertinoSliderDemo.dart';
 import 'cupertino/CupertinoAlertDemo.dart';
+import 'qqslidedrawer/SlideBody.dart';
 
 void main() => runApp(
       MyApp(),
@@ -47,7 +48,8 @@ class MyApp extends StatelessWidget {
 //      home: CupertinoPickerDemo(),
 //      home: WrapDemo(),
 //      home: CupertinoSliderDemo(),
-      home: CupertinoAlertDemo(),
+//      home: CupertinoAlertDemo(),
+      home: SlideBody(),
     );
   }
 }
