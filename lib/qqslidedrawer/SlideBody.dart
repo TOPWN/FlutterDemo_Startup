@@ -151,7 +151,7 @@ class DrawerPage extends StatelessWidget {
                   Padding(
                     padding: EdgeInsets.all(20.0),
                     child: Text(
-                      'Yumi',
+                      'TOP',
                       style: Theme.of(context)
                           .textTheme
                           .title
