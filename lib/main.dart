@@ -13,6 +13,11 @@ import 'package:startup_namer/material/TextFieldSample.dart';
 import 'package:startup_namer/material/TestFuture.dart';
 import 'package:startup_namer/cupertino/CupertinoSwitchTest.dart';
 import 'cupertino/CupertinoPickerDemo.dart';
+import 'material/WrapDemo.dart';
+import 'cupertino/CupertinoSliderDemo.dart';
+import 'cupertino/CupertinoAlertDemo.dart';
+import 'qqslidedrawer/SlideBody.dart';
+import 'material/AnimationDemo.dart';
 
 void main() => runApp(
       MyApp(),
@@ -41,7 +46,12 @@ class MyApp extends StatelessWidget {
 //      home: TextFieldSample(),
 //      home: TestFuture(),
 //      home: CupertinoSwitchDemo(),
-      home: CupertinoPickerDemo(),
+//      home: CupertinoPickerDemo(),
+//      home: WrapDemo(),
+//      home: CupertinoSliderDemo(),
+//      home: CupertinoAlertDemo(),
+//      home: SlideBody(),
+      home: AnimationDemo(),
     );
   }
 }
