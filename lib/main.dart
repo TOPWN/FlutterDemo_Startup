@@ -18,6 +18,7 @@ import 'cupertino/CupertinoSliderDemo.dart';
 import 'cupertino/CupertinoAlertDemo.dart';
 import 'qqslidedrawer/SlideBody.dart';
 import 'material/AnimationDemo.dart';
+import 'material/AnimationLogoFade.dart';
 
 void main() => runApp(
       MyApp(),
@@ -51,7 +52,8 @@ class MyApp extends StatelessWidget {
 //      home: CupertinoSliderDemo(),
 //      home: CupertinoAlertDemo(),
 //      home: SlideBody(),
-      home: AnimationDemo(),
+//      home: AnimationDemo(),
+      home: LogoFade(),
     );
   }
 }
