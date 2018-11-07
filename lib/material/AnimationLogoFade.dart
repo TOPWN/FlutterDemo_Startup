@@ -19,7 +19,11 @@ class LogoFadeState extends State<LogoFade> {
       appBar: AppBar(
         title: Text("Fade"),
       ),
-      body: Center(
+      body: Container(
+        width: MediaQuery.of(context).size.width,
+        decoration: BoxDecoration(
+          color: Colors.blue,
+        ),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,

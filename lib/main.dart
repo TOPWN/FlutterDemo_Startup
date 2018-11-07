@@ -19,6 +19,7 @@ import 'cupertino/CupertinoAlertDemo.dart';
 import 'qqslidedrawer/SlideBody.dart';
 import 'material/AnimationDemo.dart';
 import 'material/AnimationLogoFade.dart';
+import 'material/hero/LoginPage.dart';
 
 void main() => runApp(
       MyApp(),
@@ -28,9 +29,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false, //去除debug版本中右上角的标识
       title: 'Welcome to Flutter',
       theme: ThemeData(
         primaryColor: Colors.blue,
+        accentColor: Colors.blue,
       ),
 //      home: RandomWords(),
 //      home: MyScaffold(),
@@ -53,7 +56,8 @@ class MyApp extends StatelessWidget {
 //      home: CupertinoAlertDemo(),
 //      home: SlideBody(),
 //      home: AnimationDemo(),
-      home: LogoFade(),
+//      home: LogoFade(),
+      home: LoginPage(),
     );
   }
 }
