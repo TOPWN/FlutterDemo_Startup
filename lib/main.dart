@@ -20,10 +20,17 @@ import 'qqslidedrawer/SlideBody.dart';
 import 'material/AnimationDemo.dart';
 import 'material/AnimationLogoFade.dart';
 import 'material/hero/LoginPage.dart';
+import 'material/animation/SpinningSquare.dart';
 
 void main() => runApp(
+      //The => expr syntax is a shorthand for { return expr; }. The => notation is sometimes referred to as arrow syntax.
       MyApp(),
     );
+//void main() {
+//  return runApp(
+//    MyApp(),
+//  );
+//}
 
 class MyApp extends StatelessWidget {
   @override
@@ -57,7 +64,8 @@ class MyApp extends StatelessWidget {
 //      home: SlideBody(),
 //      home: AnimationDemo(),
 //      home: LogoFade(),
-      home: LoginPage(),
+//      home: LoginPage(),
+      home: SpinningSquare(),
     );
   }
 }
