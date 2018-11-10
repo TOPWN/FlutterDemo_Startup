@@ -18,18 +18,29 @@ import 'cupertino/CupertinoSliderDemo.dart';
 import 'cupertino/CupertinoAlertDemo.dart';
 import 'qqslidedrawer/SlideBody.dart';
 import 'material/AnimationDemo.dart';
+import 'material/AnimationLogoFade.dart';
+import 'material/hero/LoginPage.dart';
+import 'material/animation/SpinningSquare.dart';
 
 void main() => runApp(
+      //The => expr syntax is a shorthand for { return expr; }. The => notation is sometimes referred to as arrow syntax.
       MyApp(),
     );
+//void main() {
+//  return runApp(
+//    MyApp(),
+//  );
+//}
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false, //去除debug版本中右上角的标识
       title: 'Welcome to Flutter',
       theme: ThemeData(
         primaryColor: Colors.blue,
+        accentColor: Colors.blue,
       ),
 //      home: RandomWords(),
 //      home: MyScaffold(),
@@ -51,7 +62,10 @@ class MyApp extends StatelessWidget {
 //      home: CupertinoSliderDemo(),
 //      home: CupertinoAlertDemo(),
 //      home: SlideBody(),
-      home: AnimationDemo(),
+//      home: AnimationDemo(),
+//      home: LogoFade(),
+//      home: LoginPage(),
+      home: SpinningSquare(),
     );
   }
 }
