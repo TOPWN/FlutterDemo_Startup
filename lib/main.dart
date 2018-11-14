@@ -44,7 +44,7 @@ class MyApp extends StatelessWidget {
         primaryColor: Colors.blue,
         accentColor: Colors.blue,
       ),
-//      home: RandomWords(),
+      home: RandomWords(),
 //      home: MyScaffold(),
 //      home: TutorialHome(),
 //      home: MyButtonWidget(),
@@ -69,7 +69,7 @@ class MyApp extends StatelessWidget {
 //      home: LoginPage(),
 //      home: SpinningSquare(),
 //      home: DragPage(),
-      home: AnimationPage(),
+//      home: AnimationPage(),
     );
   }
 }
