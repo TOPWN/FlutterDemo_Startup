@@ -29,7 +29,7 @@ class RandomWordsState extends State<RandomWords> {
 
   Widget _buildSuggestions() {
     return ListView.builder(
-        padding: const EdgeInsets.all(16.0),
+        padding: const EdgeInsets.all(16),
         // The itemBuilder callback is called once per suggested word pairing,
         // and places each suggestion into a ListTile row.
         // For even rows, the function adds a ListTile row for the word pairing.
@@ -93,7 +93,7 @@ class RandomWordsState extends State<RandomWords> {
         //方案二，传参context
         Scaffold.of(context).showSnackBar(
           SnackBar(
-            content: Text("${pair.asPascalCase} has been removedqq"),
+            content: Text("${pair.asPascalCase} has been removed"),
           ),
         );
       },

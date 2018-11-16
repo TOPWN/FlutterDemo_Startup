@@ -23,6 +23,7 @@ import 'material/hero/LoginPage.dart';
 import 'material/animation/SpinningSquare.dart';
 import 'material/DraggableDemo.dart';
 import 'material/animation/AnimationPage.dart';
+import 'material/paint/CustomPainterDemo.dart';
 
 void main() => runApp(
       //The => expr syntax is a shorthand for { return expr; }. The => notation is sometimes referred to as arrow syntax.
@@ -44,7 +45,7 @@ class MyApp extends StatelessWidget {
         primaryColor: Colors.blue,
         accentColor: Colors.blue,
       ),
-      home: RandomWords(),
+//      home: RandomWords(),
 //      home: MyScaffold(),
 //      home: TutorialHome(),
 //      home: MyButtonWidget(),
@@ -70,6 +71,7 @@ class MyApp extends StatelessWidget {
 //      home: SpinningSquare(),
 //      home: DragPage(),
 //      home: AnimationPage(),
+      home: CustomPainterDemo(),
     );
   }
 }
