@@ -9,12 +9,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e89537c-ba7b-448d-83ea-8cfe3e26495d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/material/paint/CustomPainterDemo.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/material/startup.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/material/startup.dart" afterDir="false" />
-    </list>
+    <list default="true" id="5e89537c-ba7b-448d-83ea-8cfe3e26495d" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
     <ignored path="$PROJECT_DIR$/.pub/" />
@@ -28,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.dart" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.dart" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/main.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="64" column="10" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
+            <state relative-caret-position="808">
+              <caret line="73" column="16" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -79,14 +74,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CustomPainterDemo.dart" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CustomPainterDemo.dart" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/material/paint/CustomPainterDemo.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+            <state relative-caret-position="208">
+              <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="basic.dart" pinned="false" current-in-tab="false">
+        <entry file="file://D:/FlutterSDK/fluttersdk/flutter/packages/flutter/lib/src/widgets/basic.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2">
+              <caret line="382" column="3" lean-forward="true" selection-start-line="382" selection-start-column="3" selection-end-line="382" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -96,15 +100,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="302">
               <caret line="3144" column="7" selection-start-line="3144" selection-start-column="7" selection-end-line="3144" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="basic.dart" pinned="false" current-in-tab="false">
-        <entry file="file://D:/FlutterSDK/fluttersdk/flutter/packages/flutter/lib/src/widgets/basic.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="412" column="8" selection-start-line="412" selection-start-column="8" selection-end-line="412" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -205,8 +200,8 @@
         <option value="$PROJECT_DIR$/lib/material/DraggableDemo.dart" />
         <option value="$PROJECT_DIR$/lib/material/animation/AnimationPage.dart" />
         <option value="$PROJECT_DIR$/lib/material/startup.dart" />
-        <option value="$PROJECT_DIR$/lib/material/paint/CustomPainterDemo.dart" />
         <option value="$PROJECT_DIR$/lib/main.dart" />
+        <option value="$PROJECT_DIR$/lib/material/paint/CustomPainterDemo.dart" />
       </list>
     </option>
   </component>
@@ -401,7 +396,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32869378" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49284694" weight="0.32869378" />
       <window_info id="Captures" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4935065" visible="true" weight="0.25985563" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4935065" visible="true" weight="0.25985563" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32869378" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -741,13 +736,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/FlutterSDK/fluttersdk/flutter/packages/flutter/lib/src/widgets/basic.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="412" column="8" selection-start-line="412" selection-start-column="8" selection-end-line="412" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/material/animation/AnimationPage.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -779,20 +767,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/material/paint/CustomPainterDemo.dart">
+    <entry file="file://$PROJECT_DIR$/lib/main.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        <state relative-caret-position="808">
+          <caret line="73" column="16" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/main.dart">
+    <entry file="file://D:/FlutterSDK/fluttersdk/flutter/packages/flutter/lib/src/widgets/basic.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="64" column="10" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
+        <state relative-caret-position="2">
+          <caret line="382" column="3" lean-forward="true" selection-start-line="382" selection-start-column="3" selection-end-line="382" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/material/paint/CustomPainterDemo.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
