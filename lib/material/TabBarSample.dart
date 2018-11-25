@@ -1,10 +1,53 @@
 import 'package:flutter/material.dart';
 
-class TabBarDemo extends StatelessWidget {
+class TabBarDemo extends StatefulWidget {
+  @override
+  State<StatefulWidget> createState() {
+    return TabBarState();
+  }
+}
+
+class TabBarState extends State<TabBarDemo>
+    with SingleTickerProviderStateMixin {
+  Color _themeColor = Colors.blue;
+  TabController _tabController;
+
+  @override
+  void initState() {
+    super.initState();
+    _tabController = TabController(length: 3, initialIndex: 0, vsync: this);
+    _tabController.addListener(getCurrentIndex);
+  }
+
+  void getCurrentIndex() {
+    print("currentIndex:${_tabController.index}");
+    setState(() {
+      switch (_tabController.index) {
+        case 0:
+          _themeColor = Colors.blue;
+          break;
+        case 1:
+          _themeColor = Colors.red;
+          break;
+        case 2:
+          _themeColor = Colors.black38;
+          break;
+      }
+    });
+  }
+
+  @override
+  void dispose() {
+    _tabController.dispose();
+    super.dispose();
+  }
+
   @override
   Widget build(BuildContext context) {
-    return DefaultTabController(
-      length: 3,
+    return Theme(
+      data: ThemeData(
+        primaryColor: _themeColor,
+      ),
       child: Scaffold(
         appBar: AppBar(
           bottom: TabBar(
@@ -13,6 +56,16 @@ class TabBarDemo extends StatelessWidget {
               Tab(text: "Train", icon: Icon(Icons.directions_transit)),
               Tab(text: "Bike", icon: Icon(Icons.directions_bike)),
             ],
+            controller: _tabController,
+//            indicator: ShapeDecoration(
+//              color: Colors.white,
+//              shape: RoundedRectangleBorder(
+//                borderRadius: BorderRadius.all(
+//                  Radius.circular(10),
+//                ),
+//              ),
+//            ),
+            indicatorColor: Colors.white,
           ),
           title: Text('Tabs Demo'),
         ),
@@ -22,16 +75,18 @@ class TabBarDemo extends StatelessWidget {
             Icon(Icons.directions_transit),
             Icon(Icons.directions_bike),
           ],
+          controller: _tabController,
         ),
         bottomNavigationBar: Container(
           height: 60.0,
-          color: Colors.blue[500],
+          color: _themeColor,
           child: TabBar(
             tabs: [
               Tab(text: "Car", icon: Icon(Icons.directions_car)),
               Tab(text: "Train", icon: Icon(Icons.directions_transit)),
               Tab(text: "Bike", icon: Icon(Icons.directions_bike)),
             ],
+            controller: _tabController,
           ),
         ),
         drawer: Container(
